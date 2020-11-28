@@ -11,22 +11,22 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
-    <ClCompile Include="Game.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Mesh.cpp" />
     <ClCompile Include="HelperFunctions.cpp" />
+    <ClCompile Include="Game.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h" />
     <ClInclude Include="StepTimer.h">
       <Filter>Common</Filter>
     </ClInclude>
+    <ClInclude Include="Mesh.h" />
+    <ClInclude Include="HelperFunctions.h" />
+    <ClInclude Include="pch.h" />
     <ClInclude Include="d3dx12.h">
       <Filter>Common</Filter>
     </ClInclude>
-    <ClInclude Include="Mesh.h" />
-    <ClInclude Include="pch.h" />
-    <ClInclude Include="HelperFunctions.h" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="Assets\Logo.scale-200.png">
